@@ -60,11 +60,18 @@ body {
     float: left;
      }
   
-    .nav1 li:hover > ul {
+  .nav1 li:hover > ul {
     display: block;
      }
 
-    footer {
+  .frase {
+      display: none;
+  }
+  .autor {
+      display: none;
+  }
+
+  footer {
     background-color: black;
     color: white;
     position: fixed;
