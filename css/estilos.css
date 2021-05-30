@@ -11,15 +11,15 @@ body {
   font-family: 'Poiret One', cursive; }
 
 .nav1 .icono {
-  width: 45px;
-  height: 45px;
-  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
   border: solid 2px;
   margin-bottom: 10px;
   margin-right: 10px; }
 
 .nav1 .titulo {
-  font-size: 40px; }
+  font-size: 30px; }
 
 .links {
   display: flex;
