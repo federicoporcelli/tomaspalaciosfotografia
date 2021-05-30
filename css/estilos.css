@@ -51,6 +51,12 @@ body {
 .nav1 li:hover > ul {
   display: block; }
 
+.frase {
+  display: none; }
+
+.autor {
+  display: none; }
+
 footer {
   background-color: black;
   color: white;
