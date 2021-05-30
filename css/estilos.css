@@ -24,7 +24,7 @@ body {
 .links {
   display: flex;
   flex-direction: column;
-  padding-top: 10px;
+  padding-top: 0px;
   padding-right: 5px; }
 
 .links li a {
@@ -57,6 +57,9 @@ body {
 .autor {
   display: none; }
 
+.body2 {
+  background-image: radial-gradient(white, grey); }
+
 footer {
   background-color: black;
   color: white;
@@ -72,9 +75,19 @@ footer {
   .links {
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
-    justify-content: flex-end;
-    padding-right: 5px; }
+    padding-top: 0x;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px; }
+  .nav1 .icono {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    border: solid 2px;
+    margin-bottom: 10px;
+    margin-right: 10px; }
+  .nav1 .titulo {
+    font-size: 40px; }
   .links li a {
     margin: 4px;
     color: black;
@@ -110,3 +123,14 @@ footer {
     display: none; }
   .autor {
     display: none; } }
+
+.nav1 .icono {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  border: solid 2px;
+  margin-bottom: 10px;
+  margin-right: 10px; }
+
+.nav1 .titulo {
+  font-size: 20px; }
