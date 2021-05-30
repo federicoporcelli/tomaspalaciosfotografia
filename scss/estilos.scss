@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../imagenes/fondo2.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poiret One', cursive;
+    
+}
+
+.nav1 {
+    .icono {
+        width: 45px;
+        height: 45px;
+        border-radius: 20px;
+        border: solid 2px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+
+    }
+    .titulo {
+        font-size: 40px;
+        
+        
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 5px; }
+  
+  .links li a {
+    margin: 4px;
+    color: black;
+    padding: 10px 15px; }
+  
+  .nav1 li a:hover {
+    color: black;
+    border-radius: 15px;
+    background-color: lightgray;
+    display: inline-block;
+    
+     }
+  
+  .nav1 li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    float: left; 
+    background-color: white;}
+  
+  .nav1 li ul li {
+    float: left;
+     }
+  
+    .nav1 li:hover > ul {
+    display: block;
+     }
+
+    footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    font-size: 11px; }
+
+    
+
+@media only screen and (min-width: 1024px) {
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: flex-end;
+    padding-right: 5px; 
+    }
+
+   
+
+  
+  .links li a {
+    margin: 4px;
+    color: black;
+    padding: 10px 15px; }
+  
+  .nav1 li a:hover {
+    color: black;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left: 0px;
+     }
+  
+  .nav1 li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    float: left; 
+    background-color: white;
+    }
+  
+  .nav1 li ul li {
+    float: left;
+     }
+  
+  .nav1 li:hover > ul {
+    display: block;
+     }
+
+
+
+  .frase {
+    color: white;
+    text-align: right;
+    padding-top: 15%;
+    padding-left: 50%;
+    padding-right: 20%;
+    
+    }
+
+  .autor {
+    font-size: 15px;
+    
+    }
+
+  .footer {
+      font-size: 10px;
+  }
+}
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .frase {
+        display: none;
+    }
+  .autor {
+        display: none;
+    }
+}
