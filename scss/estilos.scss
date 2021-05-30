@@ -24,7 +24,7 @@ body {
 
     }
     .titulo {
-        font-size: 25px;
+        font-size: 20px;
         
         
     }
@@ -33,7 +33,7 @@ body {
 .links {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-right: 5px; }
   
   .links li a {
@@ -71,6 +71,17 @@ body {
       display: none;
   }
 
+  .body2 {
+    background-image: radial-gradient(white, grey);
+  }
+
+
+
+
+
+
+
+
   footer {
     background-color: black;
     color: white;
@@ -89,12 +100,28 @@ body {
   .links {
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
-    justify-content: flex-end;
-    padding-right: 5px; 
+    padding-top: 0x;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px; 
     }
-
-   
+    .nav1 {
+      .icono {
+          width: 35px;
+          height: 35px;
+          border-radius: 15px;
+          border: solid 2px;
+          margin-bottom: 10px;
+          margin-right: 10px;
+  
+      }
+      .titulo {
+          font-size: 40px;
+          
+          
+      }
+  }
+  
 
   
   .links li a {
@@ -152,4 +179,21 @@ body {
   .autor {
         display: none;
     }
+}
+
+.nav1 {
+  .icono {
+      width: 35px;
+      height: 35px;
+      border-radius: 15px;
+      border: solid 2px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+
+  }
+  .titulo {
+      font-size: 20px;
+      
+      
+  }
 }
