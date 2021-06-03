@@ -58,6 +58,7 @@
   display: none; }
 
 .body2 {
+<<<<<<< HEAD
   background-image: radial-gradient(grey, white); }
 
 .redes {
@@ -79,6 +80,9 @@
     margin-bottom: 60px; }
   .redes .linkedinTexto {
     margin-bottom: 62px; }
+=======
+  background-image: none; }
+>>>>>>> 0ddfb6554846015117e9ec8330e11852d3265333
 
 footer {
   background-color: black;
