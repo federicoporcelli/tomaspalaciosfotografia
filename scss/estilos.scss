@@ -81,7 +81,7 @@
   padding-top: 40px;
   padding-bottom: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   
   
   .boton {
@@ -159,8 +159,9 @@ footer {
         margin-right: 10px;
 
     }
-    
-     
+    .titulo {
+        font-size: 20px;
+        
         
     }
 }
@@ -195,8 +196,6 @@ footer {
 
 
 
-
-
 .frase {
   color: white;
   text-align: right;
@@ -218,20 +217,18 @@ footer {
     font-size: 20px;
   }
   p {
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 15px;
   }
 }
-
-
 
 .footer {
     font-size: 10px;
     background-color: black;
 }
 
-
+}
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
+
 .frase {
       display: none;
   }
