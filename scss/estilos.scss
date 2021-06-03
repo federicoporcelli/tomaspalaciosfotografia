@@ -71,18 +71,49 @@
     display: none;
 }
 
-.whatsapp {
-  background-image: url(../imagenes/Logo-WhatsApp.webp);
-  border-radius: 10px solid green;
-  background-size: 100%;
-}
-
-
 
 .body2 {
   @extend .body1;
   background-image: radial-gradient(grey, white);
 }
+
+.redes {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  
+  
+  .boton {
+    background-color: lightgray;
+    border: 1px black solid;
+    color: black;
+    font-weight: bolder;
+    display: inline;
+    }
+
+    .behanceTitulo {
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+    .behanceTexto {
+      margin-top: 15px;
+      margin-bottom: 60px;
+    }
+
+    .linkedinTexto {
+      margin-bottom: 62px;
+
+    }
+    
+}
+
+.mailTexto {
+  @extend .behanceTexto
+}
+
+
+
 
 
 
