@@ -58,7 +58,6 @@
   display: none; }
 
 .body2 {
-<<<<<<< HEAD
   background-image: radial-gradient(grey, white); }
 
 .redes {
@@ -80,9 +79,6 @@
     margin-bottom: 60px; }
   .redes .linkedinTexto {
     margin-bottom: 62px; }
-=======
-  background-image: none; }
->>>>>>> 0ddfb6554846015117e9ec8330e11852d3265333
 
 footer {
   background-color: black;
@@ -111,7 +107,7 @@ footer {
     margin-bottom: 10px;
     margin-right: 10px; }
   .nav1 .titulo {
-    font-size: 40px; }
+    font-size: 20px; }
   .links li a {
     margin: 4px;
     color: black;
@@ -142,7 +138,8 @@ footer {
     font-size: 15px;
     display: block; }
   .footer {
-    font-size: 10px; } }
+    font-size: 10px;
+    background-color: black; } }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
   .frase {
