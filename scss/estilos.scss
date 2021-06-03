@@ -104,6 +104,16 @@
       margin-bottom: 62px;
 
     }
+
+    h5 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    
     
 }
 
@@ -149,14 +159,11 @@ footer {
         margin-right: 10px;
 
     }
-    .titulo {
-        font-size: 20px;
-        
+    
+     
         
     }
 }
-
-
 
 .links li a {
   margin: 4px;
@@ -188,6 +195,8 @@ footer {
 
 
 
+
+
 .frase {
   color: white;
   text-align: right;
@@ -204,11 +213,24 @@ footer {
   
   }
 
+.redes {
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+
+
 .footer {
     font-size: 10px;
     background-color: black;
 }
-}
+
+
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
 .frase {
       display: none;
@@ -232,5 +254,8 @@ footer {
     font-size: 20px;
     
     
+}
+.redes {
+  justify-content: center;
 }
 }
