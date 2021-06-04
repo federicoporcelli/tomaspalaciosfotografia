@@ -69,7 +69,8 @@
     background-color: lightgray;
     border: 1px black solid;
     color: black;
-    font-weight: bolder; }
+    font-weight: bolder;
+    font-size: 12px; }
   .redes h5 {
     font-size: 15px; }
   .redes p {
