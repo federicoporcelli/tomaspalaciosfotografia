@@ -82,6 +82,8 @@
   padding-bottom: 40px;
   display: flex;
   justify-content: flex-start;
+
+
   
   
   .boton {
@@ -91,20 +93,7 @@
     font-weight: bolder;
     }
 
-    .behanceTitulo {
-      margin-top: 25px;
-      margin-bottom: 15px;
-    }
-    .behanceTexto {
-      margin-top: 15px;
-      margin-bottom: 60px;
-    }
-
-    .linkedinTexto {
-      margin-bottom: 62px;
-
-    }
-
+    
     h5 {
       font-size: 15px;
     }
@@ -117,12 +106,39 @@
     
 }
 
-.mailTexto {
-  @extend .behanceTexto
-}
 
 
+.galeriaContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: 100px;
+  grid-gap: 10px;
+  padding-top: 50px; }
 
+.fotoGaleria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px; }
+
+.fotoGaleria:hover {
+  opacity: .2; }
+
+.fotoGaleria:active {
+  transform: scale(4.5);
+  opacity: 1;
+  transition: all 3s; }
+
+img:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3; }
+
+img:nth-child(9) {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column: 2/4; }
 
 
 
