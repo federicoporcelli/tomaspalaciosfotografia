@@ -101,14 +101,21 @@
     p {
       font-size: 13px;
     }
-
-    
-    
-}
+  }
 
 .card {
-  margin: 10px;
+  width: 100%;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  
 }
+
+.redes {
+  padding-bottom: 70px;
+}
+
 
 
 .galeria {
@@ -132,7 +139,7 @@
 }
 
 .galeria :hover {
-  opacity: .8;
+  opacity: .8g;
 }
 
 .popup {
@@ -143,7 +150,6 @@
   display: block;
   position: fixed;
   background: black;
-  opacity: 0.8;
   top: 0;
   left: 0;
   width: 100%;
