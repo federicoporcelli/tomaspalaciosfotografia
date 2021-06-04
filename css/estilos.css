@@ -93,6 +93,9 @@
   .galeria li {
     margin: 5px; }
 
+.galeria :hover {
+  opacity: .8; }
+
 .popup {
   display: none; }
 
