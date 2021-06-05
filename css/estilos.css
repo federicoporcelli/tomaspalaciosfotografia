@@ -19,6 +19,9 @@
   margin-bottom: 10px;
   margin-right: 10px; }
 
+.nav1 a .icono {
+  border: none; }
+
 #titulo, #titulo2, #titulo3, #titulo4, #titulo5 {
   font-size: 25px; }
 
@@ -175,6 +178,7 @@
   height: 300px;
   box-sizing: border-box; }
 
+/* ---------- CONTACTO.HTML ---------- */
 .redes {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -190,6 +194,9 @@
     font-size: 15px; }
   .redes p {
     font-size: 13px; }
+
+.botonera {
+  vertical-align: baseline; }
 
 .card {
   width: 100%;
