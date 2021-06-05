@@ -18,8 +18,8 @@
   margin-bottom: 10px;
   margin-right: 10px; }
 
-.nav1 .titulo {
-  font-size: 20px; }
+#titulo, #titulo2, #titulo3, #titulo4, #titulo5 {
+  font-size: 25px; }
 
 .links {
   display: flex;
@@ -62,24 +62,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  justify-content: space-between;
-  font-size: 19px;
-  padding-left: 10px;
-  font-weight: bold;
-  width: 90%;
-  margin: auto;
+  flex-wrap: wrap;
   padding: 20px;
   box-sizing: border-box;
-  justify-content: space-around; }
-
-.bio2 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  margin-top: 50px;
-  align-items: center;
   font-size: 19px;
-  padding-right: 10px;
   font-weight: bold; }
 
 .bio1__texto {
@@ -92,42 +78,10 @@
   margin: auto 20px; }
 
 .bio2__texto {
-  padding: 5px;
   padding-bottom: 40px; }
-
-.bio2__foto {
-  width: 400px;
-  height: 300px;
-  border: solid black 2px; }
 
 .body2 {
   background-image: radial-gradient(grey, white); }
-
-.redes {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  display: flex;
-  justify-content: flex-start; }
-  .redes .boton {
-    background-color: lightgray;
-    border: 1px black solid;
-    color: black;
-    font-weight: bolder;
-    font-size: 12px; }
-  .redes h5 {
-    font-size: 15px; }
-  .redes p {
-    font-size: 13px; }
-
-.card {
-  width: 100%;
-  margin: 5px;
-  justify-content: center;
-  align-items: center;
-  margin: 0px auto; }
-
-.redes {
-  padding-bottom: 70px; }
 
 .galeria {
   display: flex;
@@ -214,6 +168,32 @@
   background: black;
   border-radius: 20px; }
 
+.redes {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: flex-start; }
+  .redes .boton {
+    background-color: lightgray;
+    border: 1px black solid;
+    color: black;
+    font-weight: bolder;
+    font-size: 12px; }
+  .redes h5 {
+    font-size: 15px; }
+  .redes p {
+    font-size: 13px; }
+
+.card {
+  width: 100%;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto; }
+
+.redes {
+  padding-bottom: 70px; }
+
 footer {
   background-color: black;
   color: white;
@@ -233,15 +213,20 @@ footer {
     justify-content: center;
     align-items: center;
     padding-right: 0px; }
-  .nav1 .icono {
-    width: 35px;
-    height: 35px;
-    border-radius: 15px;
-    border: solid 2px;
-    margin-bottom: 10px;
-    margin-right: 10px; }
-  .nav1 .titulo {
-    font-size: 20px; }
+  .nav1 {
+    font-size: 15px;
+    font-weight: bold; }
+    .nav1 .icono {
+      width: 35px;
+      height: 35px;
+      border-radius: 15px;
+      border: solid 2px;
+      margin-bottom: 10px;
+      margin-right: 10px; }
+    .nav1 .titulo h1 {
+      font-size: 40px; }
+  #titulo, #titulo2, #titulo3, #titulo4, #titulo5 {
+    font-size: 40px; }
   .links li a {
     margin: 4px;
     color: black;
@@ -271,10 +256,56 @@ footer {
   .autor {
     font-size: 15px;
     display: block; }
-  .redes h5 {
-    font-size: 20px; }
-  .redes p {
-    font-size: 15px; }
+  .bio1, .bio2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-size: 19px;
+    padding-left: 10px;
+    font-weight: bold;
+    width: 100%; }
+  .bio2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    font-size: 19px;
+    padding-right: 10px;
+    font-weight: bold; }
+  .bio1__texto {
+    padding: 2px;
+    width: 50%; }
+  .bio1__foto, .bio2__foto {
+    width: 400px;
+    height: 300px;
+    border: solid black 2px; }
+  .bio2__texto {
+    padding: 5px;
+    padding-bottom: 40px;
+    width: 50%; }
+  .bio2__foto {
+    width: 400px;
+    height: 300px;
+    border: solid black 2px; }
+  .redes {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: flex-start; }
+    .redes .boton {
+      background-color: lightgray;
+      border: 1px black solid;
+      color: black;
+      font-weight: bolder;
+      font-size: 12px; }
+    .redes h5 {
+      font-size: 20px; }
+    .redes p {
+      font-size: 20px; }
   .footer {
     font-size: 10px;
     background-color: black; } }
