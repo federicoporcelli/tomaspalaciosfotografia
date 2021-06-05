@@ -39,7 +39,7 @@
 .nav1 li a:hover {
   color: black;
   border-radius: 15px;
-  background-color: lightgray;
+  background-color: radial-gradient(grey, white);
   display: inline-block; }
 
 .nav1 li ul {
@@ -47,7 +47,7 @@
   position: absolute;
   min-width: 140px;
   float: left;
-  background-color: lightgray; }
+  background-color: white; }
 
 .nav1 li ul li {
   float: left; }
