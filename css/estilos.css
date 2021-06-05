@@ -10,6 +10,7 @@
   height: 100vh;
   font-family: 'Poiret One', cursive; }
 
+/* ---------- BARRA NAVEGADORA ---------- */
 .nav1 .icono {
   width: 35px;
   height: 35px;
@@ -57,6 +58,7 @@
 .autor {
   display: none; }
 
+/* ---------- BIO.HTML ---------- */
 .bio1, .bio2 {
   display: flex;
   flex-direction: row;
@@ -69,17 +71,20 @@
   font-weight: bold; }
 
 .bio1__texto {
-  padding: 2px; }
+  padding: 20px; }
 
 .bio1__foto, .bio2__foto {
   width: 400px;
   height: 300px;
   border: solid black 2px;
-  margin: auto 20px; }
+  margin: auto 20px;
+  max-width: 90%; }
 
 .bio2__texto {
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  padding-top: 20px; }
 
+/* ---------- FOTOS.HTML ---------- */
 .body2 {
   background-image: radial-gradient(grey, white); }
 
@@ -152,21 +157,23 @@
     border-radius: 50%;
     line-height: 25px; }
 
+/* ---------- VIDEOS.HTML ---------- */
 .videoContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
-  align-items: baseline;
-  flex-wrap: wrap;
-  padding: 20px;
+  align-items: center;
   box-sizing: border-box; }
 
-.videoItem1, .videoItem3, .videoItem4, .videoItem2, .videoItem3 .videoItem4 {
+.videoItem1, .videoItem2, .videoItem3, .videoItem4 {
   margin: 30px;
   padding: 10px;
   border: black solid 3px;
   background: black;
-  border-radius: 20px; }
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  box-sizing: border-box; }
 
 .redes {
   padding-top: 40px;
@@ -194,6 +201,7 @@
 .redes {
   padding-bottom: 70px; }
 
+/* ---------- FOOTER ---------- */
 footer {
   background-color: black;
   color: white;
@@ -302,6 +310,25 @@ footer {
       font-size: 20px; }
     .redes p {
       font-size: 20px; }
+  .videoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box; }
+  .videoItem1, .videoItem2, .videoItem3, .videoItem4 {
+    margin: 30px;
+    padding: 10px;
+    border: black solid 3px;
+    background: black;
+    border-radius: 20px;
+    width: 560px;
+    height: 380px; }
+    .videoItem1 iframe, .videoItem2 iframe, .videoItem3 iframe, .videoItem4 iframe {
+      width: 540px;
+      height: 360px; }
   .footer {
     font-size: 10px;
     background-color: black; } }
