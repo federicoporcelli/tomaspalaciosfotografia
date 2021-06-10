@@ -128,7 +128,7 @@
     padding-top: 100px; }
   .popup:target .imagen {
     width: 100%;
-    height: 50%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center; }
@@ -165,12 +165,12 @@
 .videoContainer {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   box-sizing: border-box; }
 
 .videoItem1, .videoItem2, .videoItem3, .videoItem4 {
-  margin: 30px;
+  margin: 15px;
   padding: 10px;
   border: black solid 3px;
   background: black;
@@ -297,6 +297,72 @@ footer {
     padding: 5px;
     padding-bottom: 40px;
     width: 50%; }
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-around; }
+    .galeria img {
+      width: 300px;
+      height: 200px; }
+    .galeria li {
+      margin: 5px; }
+  .galeria :hover {
+    opacity: .8; }
+  .popup {
+    display: none; }
+  .popup:target {
+    display: block;
+    position: fixed;
+    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .popup:target h3 {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+      margin: 30px 0px;
+      padding-top: 100px; }
+    .popup:target .imagen {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .popup:target .imagen a {
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+        margin: 0 10px; }
+      .popup:target .imagen img {
+        width: 800px;
+        height: 100%;
+        max-width: 100%;
+        border: 7px solid white;
+        box-sizing: border-box; }
+    .popup:target .imagen a:nth-child(2) {
+      margin: 0;
+      height: 100%;
+      flex-shrink: 2; }
+    .popup:target .cerrar {
+      display: block;
+      background: white;
+      width: 25px;
+      height: 25px;
+      margin: 15px auto;
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bolder;
+      color: black;
+      border-radius: 50%;
+      line-height: 25px; }
   .redes {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -351,6 +417,76 @@ footer {
 
 .nav1 .titulo {
   font-size: 20px; }
+
+.nav1 .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-around; }
+  .nav1 .galeria img {
+    width: 300px;
+    height: 200px; }
+  .nav1 .galeria li {
+    margin: 5px; }
+
+.nav1 .galeria :hover {
+  opacity: .8; }
+
+.nav1 .popup {
+  display: none; }
+
+.nav1 .popup:target {
+  display: block;
+  position: fixed;
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  .nav1 .popup:target h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0px;
+    padding-top: 100px; }
+  .nav1 .popup:target .imagen {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .nav1 .popup:target .imagen a {
+      color: white;
+      font-size: 40px;
+      text-decoration: none;
+      margin: 0 10px; }
+    .nav1 .popup:target .imagen img {
+      width: 800px;
+      height: 100%;
+      max-width: 100%;
+      border: 7px solid white;
+      box-sizing: border-box; }
+  .nav1 .popup:target .imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2; }
+  .nav1 .popup:target .cerrar {
+    display: block;
+    background: white;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 50%;
+    line-height: 25px; }
 
 .nav1 .redes {
   justify-content: center; }
