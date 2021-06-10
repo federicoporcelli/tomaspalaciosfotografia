@@ -400,9 +400,15 @@ footer {
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
   .frase {
-    display: none; }
+    color: white;
+    text-align: right;
+    padding-top: 15%;
+    padding-left: 50%;
+    padding-right: 20%;
+    display: block; }
   .autor {
-    display: none; } }
+    font-size: 15px;
+    display: block; } }
 
 .nav1 .icono {
   width: 35px;
