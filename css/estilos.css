@@ -288,7 +288,9 @@ footer {
   .bio1__foto, .bio2__foto {
     width: 400px;
     height: 400px;
-    border: solid black 2px; }
+    border: solid black 2px;
+    margin-left: 70px;
+    margin-right: 70px; }
   .bio2__texto {
     padding: 5px;
     padding-bottom: 40px;
